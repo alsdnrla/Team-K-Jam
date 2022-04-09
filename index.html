@@ -1,73 +1,96 @@
-{% load static %}
-<!doctype html>
-<html lang="en" class="h-100">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.88.1">
-    <title>middle school homework</title>
+<!DOCTYPE html>
+<html>
 
-    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
 
-    
-  
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-
-    <!-- Bootstrap core CSS -->
-<link href='{% static "css/cover.css" %}'
-rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    
-  </head>
-  <body class="d-flex h-100 text-center text-white bg-dark">
-    
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
-    <div>
-      <h3 class="float-md-start mb-0">Kiro07.photo gallery</h3>
-      <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link active" aria-current="page" href="https://ParallelDapperMice.fgjkansfhz1238.repl.co">홈</a>
-        <a class="nav-link" href="photo/">포토 갤러리</a>
-        <a class="nav-link" href="photo_gall/">투표</a>
-      </nav>
+<body>
+  <nav class="title_header">
+     <h2> Team  K-Jam</h2>
+    <div class="chooseing">
+    <ul>
+      <li>
+       <button id="head"> 프로젝트 </button>
+      </li>
+      <li>
+        <button id="head"> 팀 소개 </button>
+      </li>
+    </ul>
     </div>
-  </header>
+    </hr>
+  </nav>
 
-  <main class="px-3">
-    <h1>20205 김민우 졸업과제</h1>
-    <p class="lead">상상한 모든것들을 만들수 있습니다.</p>
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">살펴보기</a>
-    </p>
-  </main>
 
-  <footer class="mt-auto text-white-50">
-    <p>개발자 g-mail / <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="text-white">fgjkansfhz1238@gmail.com</a>, by <a href="https://getbootstrap.com/" class="text-white">bootstrap</a>.</p>
-  </footer>
-</div>
+  <center><div class="warning">
+    <p>이 사이트는 컴퓨터 전용사이트 입니다. 컴퓨터로 제접속하시는것을 권장드립니다.</p>
+  </div></center>
 
+
+  <div class="main-background">
+    <div class="container">
+      <h3 class="boarding">Team K-Jam</h3>
+      <p>하나하나 배워가고 성장하는 학생개발팀 K-jam<br>
+      당신도 해낼수 있습니다 지금 <b>모집</b>에 참여하세요!</p>
+      <br>
+      <p class="tags">
+        <kbd>python</kbd>
+        <kbd>javascript</kbd>
+        <kbd>html</kbd>
+        <kbd>css</kbd>
+        <br>
+        <kbd>flask</kbd>
+        <kbd>django</kbd>
+        <kbd>node.js</kbd>
+        <kbd>react</kbd>
+        <kbd>web-crawling</kbd>
+      </p>
+      <div class="Join-us">
+        <button class="Join" onClick="location.href='https://forms.gle/PykbkEpJZud3uzDw7'">모집 🛠</button>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="promotion">
+    
+
+
+    <div class="title_promotion" style="padding-right: 100px;">
+      <h1> [Projects] 음악한곡<small>#8317</small></h1>
+      <p style="font-size: 15px;">
+        Team K-Jam이 제공하는 디스코드 무료 고품질 음악봇<br>
+        <br>
+        Team K-Jam provide for free and high quality discord Music-bot
+        <br>제작 및 제공 - K-Jam
+      </p>
+      <button id="Join-bot">초대하기 📥</button>
+      <button id="Read-docs">자세히 보기 📃</button>
+    </div>
+    <Imag><img src='https://ifh.cc/g/58QA5E.png' border='0'></Imag>
 
     
-  </body>
+
+  
+  
+  </div>
+
+  
+<footer>
+  <div class="wrapper">
+    <p>Copyright &copy "K-Jam" 2021-2022 <a href='https://www.facebook.com/profile.php?id=100041080717934' target="_blank">Facebook</a><br>
+    <small>개발자 g-mail: fgjkansfhz1238@gmail.com</small><br>
+    <small>Discord: 김민우#1528</small></p>
+    
+  </div>
+</footer>  
+  
+  <script src="script.js"></script>
+</body>
+
 </html>
